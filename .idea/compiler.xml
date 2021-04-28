@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ICT_Auto_Assignment_2021" />
+        <module name="ICT_Amazon_Automation" />
       </profile>
     </annotationProcessing>
   </component>

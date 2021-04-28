@@ -34,7 +34,7 @@ public class AddCartTestScript extends Driver {
         Assert.assertEquals(correct_item,itemlist);
         //add item quantity to three
         addCart.QuantityToThree();
-        //clicking AddtoCart
+        //clicking AddtoCart//
         addCart.clickAddToCart();
 
     }
