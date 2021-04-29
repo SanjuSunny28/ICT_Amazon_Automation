@@ -8,6 +8,6 @@ public class NaviToPrdtDetailPageTest extends Driver {
     @Test
     public void navigate() throws InterruptedException {
         NaviToPrdtDetailPage naviToPageDetailPage=new NaviToPrdtDetailPage(driver);
-        naviToPageDetailPage.selectprdt();
+        naviToPageDetailPage.selectProduct();
     }
 }

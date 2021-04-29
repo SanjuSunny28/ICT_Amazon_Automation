@@ -14,26 +14,26 @@
 
         <classes>
 
-<!--                      <class name="TestScript.InvalidloginTest"/>-->
+                      <class name="TestScript.InvalidloginTest"/>
 
-<!--                      <class name="TestScript.SearchTestScript"/>-->
+                      <class name="TestScript.SearchTestScript"/>
 
-<!--                       <class name="TestScript.RemoveFromCartTestScript"/>-->
+                       <class name="TestScript.RemoveFromCartTestScript"/>
 
                      <class name="TestScript.ValidPincodeTestScript"/>
 
-<!--                        <class name="TestScript.InvalidPincodeTestScript"/>-->
+                        <class name="TestScript.InvalidPincodeTestScript"/>
 
-<!--                     <class name="TestScript.SortPriceHightoLowTestScript"/>-->
+                     <class name="TestScript.SortPriceHightoLowTestScript"/>
 
-<!--                       <class name="TestScript.NaviToPrdtDetailPageTest"/>-->
+                       <class name="TestScript.NaviToPrdtDetailPageTest"/>
 
-<!--                     <class name="TestScript.SaveForLaterTest"/>-->
+                     <class name="TestScript.SaveForLaterTest"/>
 
-<!--            <class name="TestScript.AddCartTestScript"/>-->
-<!--                        <class name="TestScript.NaviToHomePageTest"/>-->
+            <class name="TestScript.AddCartTestScript"/>
+                        <class name="TestScript.NaviToHomePageTest"/>
 
-
+ 
         </classes>
 
     </test>

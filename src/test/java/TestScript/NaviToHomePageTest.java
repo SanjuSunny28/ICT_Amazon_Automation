@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class NaviToHomePageTest extends Driver {
 
     @Test
-    public void navigatesymbol() throws InterruptedException {
+    public void navigateSymbol() throws InterruptedException {
         NaviToHomePage naviToHomeDetailPage = new NaviToHomePage(driver);
         naviToHomeDetailPage.selectLogo();
     }

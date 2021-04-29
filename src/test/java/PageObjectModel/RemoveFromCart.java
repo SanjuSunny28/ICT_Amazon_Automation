@@ -12,14 +12,14 @@ public class RemoveFromCart extends Driver {
     public void cartClick(){
         driver.findElement(By.xpath("//*[@id='attach-view-cart-button-form']")).click();
     }
-    //getcartPageItem
+    //getcart PageItem
     public String cartPageItem(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement ctm=driver.findElement(By.xpath("//ul[@class='a-unordered-list a-nostyle a-vertical a-spacing-mini sc-info-block']//span[1]"));
         String cartitem=ctm.getText();
         return cartitem;
     }
-    //clickDelete
+    //click Delete
     public void delete() throws InterruptedException {
         driver.findElement(By.xpath("//input[@value='Delete']")).click();
         Thread.sleep(4000);

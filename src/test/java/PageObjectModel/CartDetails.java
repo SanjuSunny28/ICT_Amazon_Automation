@@ -22,14 +22,14 @@ public class CartDetails extends Driver {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         CartDetails.click();
     }
-    //crct prdt
+    //correct product
     public String checkProductItem()  {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement productName=driver.findElement(By.xpath("//span[@id='productTitle']"));
         String result=productName.getText();
         return result;
     }
-    //item list gettext
+    //item list get text
     public String itemList(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String result=CartDetails.getText();

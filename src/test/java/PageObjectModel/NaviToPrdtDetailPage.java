@@ -15,7 +15,7 @@ public class NaviToPrdtDetailPage {
     public NaviToPrdtDetailPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-    public void selectprdt() throws InterruptedException {
+    public void selectProduct() throws InterruptedException {
 
         hamburger.click();
         Thread.sleep(2000);

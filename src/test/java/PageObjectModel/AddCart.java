@@ -14,29 +14,29 @@ import java.util.concurrent.TimeUnit;
 public class AddCart extends Driver {
 
 
-    //cartcountlocator
+    //cart count
     @FindBy(xpath = "//span[@id='nav-cart-count']")
     private WebElement cartNumberber;
     public AddCart(WebDriver driver){
         PageFactory.initElements(driver,this); }
-    //getCartCount
+    //get Cart Count
     public int cartNumber(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         int cart_no= Integer.parseInt(cartNumberber.getText());
         return cart_no;
     }
-    //tabChange
+    //tab Change
     public void tabChange(){
         ArrayList<String> second_tab = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(second_tab.get(1));
     }
-    //changeCartQuantityTo3
+    //change Cart quantity to three
     public void QuantityToThree(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Select drop_quantity = new Select(driver.findElement(By.xpath("//select[@id='quantity']")));//quantity locator
         drop_quantity.selectByVisibleText("3");
     }
-    //clickAddToCart
+    //click AddToCart
     public void clickAddToCart() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement addcart_location=driver.findElement(By.id("add-to-cart-button"));//add item to cart
